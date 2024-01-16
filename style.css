@@ -1,0 +1,58 @@
+body{
+    background-image: linear-gradient(to left, #318CE7,#00CED1);
+    text-align: center;
+}
+#title{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 45px;
+}
+#description{
+    font-family: 'Salsa', cursive;
+    font-size: 20px;
+}
+
+#name-label,#email-label,#number-label,#dd,#rb,#cb,#ta{
+    font-family: 'Kalam', cursive;
+    color: yellow;
+    -webkit-text-stroke-color: rgb(43, 40, 172);
+    -webkit-text-stroke-width:0.50px;
+    font-size: 20px;
+}
+
+#submit-button{
+    font-family: 'Rubik Mono One', monospace;
+}
+
+    #container{
+        margin-left: 480px;
+        position:fixed;
+        background-image: url(./assets/13777983_gradient_2.jpg);
+        background-color: aqua;
+        padding: 20px;
+        height: 1000px;
+        width:800px  
+    }
+
+#name-label,#email-label,#dropdown,#ta{
+    margin-right: 135px;
+}
+
+#number-label{
+    margin-right: 10px;
+}
+.form3{
+    margin-right: 100px;
+}
+#sublime-text{
+    margin-left:35px
+}
+#YES,#NO,.check-box{
+    color: white;
+}
+#survey-form{
+    float: none;
+}
+#surveyform #email{
+    float: none;
+
+}

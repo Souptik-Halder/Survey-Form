@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link
+    rel="stylesheet"
+    href="./style.css"
+    />
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<body>
+    <h1 id="title">Free CodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <div id="bgtxts">
+
+    </div>
+    <div id="container">
+     <form id="survey-form">
+        <div class="form1">
+            <label for="fullname" id="name-label">Name</label><br>
+            <input type="text" id="name" required="name" placeholder="Enter your name"><br>       
+        </div>
+        <div class="form2">
+            <label for="email" id="email-label">Email</label><br>
+            <input type="email" id="email" placeholder="Enter your email" required="email"><br>
+        </div>
+        <div class="form3">  
+            <label for="number" id="number-label">Number</label><br>
+            <input type="number" id="numbers" placeholder="age" min="5" max="60">
+     </div>
+        
+
+        <div class="form-control">
+            <p id="dd">Which profession describes you the best ??</p>
+            <select id="drop-down" name="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="Employee">Employee</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-control-1">
+            
+                <p id="rb">Would you recommend CodeCamp to your friends:</p><br>
+                <div class="radio-buttons">
+                    <input type="radio" id="recommended-yes" name="recommended" value="yes"/>
+                    <label for="recommended-yes" id="YES">Yes</label><br>
+
+                    <input type="radio" id="recommended-no" name="recommended" value="no"/>
+                    <label for="recommended-no" id="NO">No</label>
+
+                </div>
+                <div class="check-box">
+                    <p id="cb">which software do you use for web dev projects? </p>
+                    <input type="checkbox" id="Vs code" value="vs code"/>
+                    <label for="Vs code">Vs Code</label><br>
+
+                    <input type="checkbox" id="sublime-text" value="St"/>
+                    <label for="sublime-text" id="sublime-texts">Sublime Text</label><br>
+
+                    <input type="checkbox" id="angular" value="Angular"/>
+                    <label for="angular">Angular</label><br>
+
+                    <input type="checkbox" id="no" value="No"/>
+                    <label for="no">Nothing</label>
+                </div>
+
+                <div class="text-area">
+                    <p id="ta">Any suggestions or Feedback??</p>
+                    <textarea rows="10" cols="50">
+                    </textarea>
+                </div>
+                <button id="submit-button" type="submit">Submit</button>
+            </form>
+
+        </div>
+
+    </div>
+   
+        
+            
+        
+        
+        
+    </form>
+    
+</body>
+</html>
